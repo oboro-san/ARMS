@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using ARMS.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace ARMS.DataAccess.Data
@@ -9,5 +10,8 @@ namespace ARMS.DataAccess.Data
             : base(options)
         {
         }
+
+        public DbSet<Student> Students { get; set; }
+        public DbSet<State> States { get; set; }
     }
 }
