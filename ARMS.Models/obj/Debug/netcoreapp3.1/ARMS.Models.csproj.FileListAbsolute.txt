@@ -5,3 +5,4 @@ D:\VisualStudioProjects\ARMS\ARMS.Models\obj\Debug\netcoreapp3.1\ARMS.Models.Ass
 D:\VisualStudioProjects\ARMS\ARMS.Models\bin\Debug\netcoreapp3.1\ARMS.Models.pdb
 D:\VisualStudioProjects\ARMS\ARMS.Models\obj\Debug\netcoreapp3.1\ARMS.Models.dll
 D:\VisualStudioProjects\ARMS\ARMS.Models\obj\Debug\netcoreapp3.1\ARMS.Models.pdb
+D:\VisualStudioProjects\ARMS\ARMS.Models\obj\Debug\netcoreapp3.1\ARMS.Models.csprojAssemblyReference.cache
