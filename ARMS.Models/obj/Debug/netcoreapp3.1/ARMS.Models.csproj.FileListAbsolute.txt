@@ -1,8 +1,8 @@
 D:\VisualStudioProjects\ARMS\ARMS.Models\bin\Debug\netcoreapp3.1\ARMS.Models.deps.json
 D:\VisualStudioProjects\ARMS\ARMS.Models\bin\Debug\netcoreapp3.1\ARMS.Models.dll
+D:\VisualStudioProjects\ARMS\ARMS.Models\bin\Debug\netcoreapp3.1\ARMS.Models.pdb
+D:\VisualStudioProjects\ARMS\ARMS.Models\obj\Debug\netcoreapp3.1\ARMS.Models.csprojAssemblyReference.cache
 D:\VisualStudioProjects\ARMS\ARMS.Models\obj\Debug\netcoreapp3.1\ARMS.Models.AssemblyInfoInputs.cache
 D:\VisualStudioProjects\ARMS\ARMS.Models\obj\Debug\netcoreapp3.1\ARMS.Models.AssemblyInfo.cs
-D:\VisualStudioProjects\ARMS\ARMS.Models\bin\Debug\netcoreapp3.1\ARMS.Models.pdb
 D:\VisualStudioProjects\ARMS\ARMS.Models\obj\Debug\netcoreapp3.1\ARMS.Models.dll
 D:\VisualStudioProjects\ARMS\ARMS.Models\obj\Debug\netcoreapp3.1\ARMS.Models.pdb
-D:\VisualStudioProjects\ARMS\ARMS.Models\obj\Debug\netcoreapp3.1\ARMS.Models.csprojAssemblyReference.cache

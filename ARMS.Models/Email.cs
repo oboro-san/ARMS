@@ -15,5 +15,12 @@ namespace ARMS.Models
         [Display(Name = "Email Address")]
         [Column("email_address")]
         public string EmailAddress { get; set; }
+
+        [MaxLength(50)]
+        [Column("student_id")]
+        public string StudentId { get; set; }
+
+        [Column("next_of_kin_id")]
+        public int NextOfKinId { get; set; }
     }
 }

@@ -22,11 +22,6 @@
 
 
   <ItemGroup>
-    <Folder Include="Areas\Staff\Controllers\" />
-  </ItemGroup>
-
-
-  <ItemGroup>
     <ProjectReference Include="..\ARMS.DataAccess\ARMS.DataAccess.csproj" />
   </ItemGroup>
 

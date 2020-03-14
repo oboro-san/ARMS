@@ -25,11 +25,13 @@ namespace ARMS.Models
         [Column("reg_number")]
         public string RegNumber { get; set; }
 
+        [Required]
         [MaxLength(150)]
         [Display(Name = "Lastname")]
         [Column("lastname")]
         public string LastName { get; set; }
 
+        [Required]
         [MaxLength(150)]
         [Display(Name = "Firstname")]
         [Column("firstname")]
@@ -40,14 +42,17 @@ namespace ARMS.Models
         [Column("middlename")]
         public string MiddleName { get; set; }
 
+        [Required]
         [MaxLength(50)]
         [Column("gender")]
         public string Gender { get; set; }
 
+        [Required]
         [Display(Name = "Date of Birth")]
         [Column("dob")]
         public DateTime Dob { get; set; }
 
+        [Required]
         [Display(Name = "Nationality")]
         [Column("nationality_id")]
         public int NationalityId { get; set; }

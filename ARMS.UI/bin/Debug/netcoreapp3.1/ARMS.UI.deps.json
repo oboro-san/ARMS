@@ -2668,6 +2668,9 @@
         }
       },
       "ARMS.Utility/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "3.1.2"
+        },
         "runtime": {
           "ARMS.Utility.dll": {}
         },

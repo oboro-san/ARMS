@@ -3367,12 +3367,18 @@
       "ARMS.Utility/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "3.1.2"
+        },
         "compile": {
           "bin/placeholder/ARMS.Utility.dll": {}
         },
         "runtime": {
           "bin/placeholder/ARMS.Utility.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },

@@ -11,6 +11,7 @@ namespace ARMS.Models
         [Key]
         public int Id { get; set; }
 
+        [Required]
         [MaxLength(50)]
         [Display(Name = "State")]
         [Column("state")]
