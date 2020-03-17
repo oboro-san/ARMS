@@ -477,3 +477,7 @@ D:\VisualStudioProjects\ARMS\ARMS.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Staff\V
 D:\VisualStudioProjects\ARMS\ARMS.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Staff\Views\State\Upsert.cshtml.g.cs
 D:\VisualStudioProjects\ARMS\ARMS.UI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CreateAndBackToListButton.cshtml.g.cs
 D:\VisualStudioProjects\ARMS\ARMS.UI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_EditAndBackToListButton.cshtml.g.cs
+D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\NuGet.config
+D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\DevExtreme.AspNet.Core.dll
+D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\DevExtreme.AspNet.Data.dll
+D:\VisualStudioProjects\ARMS\ARMS.UI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_DevExtremeLayout.cshtml.g.cs

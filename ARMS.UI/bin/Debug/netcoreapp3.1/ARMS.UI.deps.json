@@ -25,6 +25,8 @@
       "ARMS.UI/1.0.0": {
         "dependencies": {
           "ARMS.DataAccess": "1.0.0",
+          "DevExtreme.AspNet.Core": "19.2.3",
+          "DevExtreme.AspNet.Data": "2.5.1",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "3.1.2",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.2",
           "Microsoft.AspNetCore.Identity.UI": "3.1.2",
@@ -303,6 +305,37 @@
         },
         "compile": {
           "ARMS.UI.dll": {}
+        }
+      },
+      "DevExtreme.AspNet.Core/19.2.3": {
+        "dependencies": {
+          "DevExtreme.AspNet.Data": "2.5.1",
+          "Microsoft.AspNetCore.Mvc": "2.2.0",
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DevExtreme.AspNet.Core.dll": {
+            "assemblyVersion": "19.2.3.0",
+            "fileVersion": "19.2.3.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/DevExtreme.AspNet.Core.dll": {}
+        }
+      },
+      "DevExtreme.AspNet.Data/2.5.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DevExtreme.AspNet.Data.dll": {
+            "assemblyVersion": "2.5.1.0",
+            "fileVersion": "2.5.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/DevExtreme.AspNet.Data.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/2.2.0": {
@@ -4269,6 +4302,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "DevExtreme.AspNet.Core/19.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-udPD0EvgX0+KmEChcp9iKf7hKy2OPXhSaQ/mFDPiZdbcTsWx9HZsSngeAy3eAiMzR/6y7rOWAsMJffiF/YLCzw==",
+      "path": "devextreme.aspnet.core/19.2.3",
+      "hashPath": "devextreme.aspnet.core.19.2.3.nupkg.sha512"
+    },
+    "DevExtreme.AspNet.Data/2.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iOsfNFr1o1BlBN64ypDA9c65G/frrxiB54oB05c59riW88btB/oMdvsR1G0lCqvQlxTP+usVDgzCXtiQnnHlig==",
+      "path": "devextreme.aspnet.data/2.5.1",
+      "hashPath": "devextreme.aspnet.data.2.5.1.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Antiforgery/2.2.0": {
       "type": "package",

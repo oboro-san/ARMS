@@ -1,11 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
-
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UserSecretsId>aspnet-ARMS.UI-1811FE73-E6B5-4D52-8FDA-7094E148A180</UserSecretsId>
   </PropertyGroup>
-
-
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.2" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.2" />
@@ -19,10 +16,9 @@
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
   </ItemGroup>
-
-
   <ItemGroup>
     <ProjectReference Include="..\ARMS.DataAccess\ARMS.DataAccess.csproj" />
+    <PackageReference Include="DevExtreme.AspNet.Core" Version="19.2.3" />
+    <PackageReference Include="DevExtreme.AspNet.Data" Version="2.5.1" />
   </ItemGroup>
-
 </Project>
