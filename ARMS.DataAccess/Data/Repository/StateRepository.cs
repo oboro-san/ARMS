@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using ARMS.DataAccess.Data.Repository.IRepository;
 using ARMS.Models;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -35,6 +36,16 @@ namespace ARMS.DataAccess.Data.Repository
             {
                 objFromDb.NameOfState = state.NameOfState;
 
+                _db.SaveChanges();
+            }
+        }
+
+        public async Task UpdateAsync(State state)
+        {
+            var objFromDb = await _db.States.FirstOrDefaultAsync(x => x.Id == state.Id);
+            if (objFromDb != null)
+            {
+                objFromDb.NameOfState = state.NameOfState;
                 _db.SaveChanges();
             }
         }

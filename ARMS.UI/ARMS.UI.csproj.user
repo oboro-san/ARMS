@@ -13,5 +13,12 @@
     <_SelectedScaffolderCategoryPath>root/Identity</_SelectedScaffolderCategoryPath>
     <WebStackScaffolding_ViewDialogWidth>800</WebStackScaffolding_ViewDialogWidth>
     <WebStackScaffolding_LayoutPageFile>~/Views/Shared/_Layout.cshtml</WebStackScaffolding_LayoutPageFile>
+    <View_SelectedScaffolderID>MvcViewWithModelBindingScaffolder</View_SelectedScaffolderID>
+    <View_SelectedScaffolderCategoryPath>root/View</View_SelectedScaffolderCategoryPath>
+    <DevExtremeCreateAsPartial>False</DevExtremeCreateAsPartial>
+    <DevExtremeUseLayout>True</DevExtremeUseLayout>
+    <DevExtremeLayoutPage>~/Views/Shared/_DevExtremeLayout.cshtml</DevExtremeLayoutPage>
+    <DevExtremeSelectedDataContextName>ApplicationDbContext %28ARMS.DataAccess.Data%29</DevExtremeSelectedDataContextName>
+    <ShowAllFiles>false</ShowAllFiles>
   </PropertyGroup>
 </Project>

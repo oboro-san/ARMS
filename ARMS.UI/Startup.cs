@@ -39,7 +39,7 @@ namespace ARMS.UI
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
-            services.AddControllersWithViews().AddJsonOptions(options => options.JsonSerializerOptions.PropertyNamingPolicy = null).AddNewtonsoftJson().AddRazorRuntimeCompilation();
+            services.AddMvc().AddJsonOptions(options => options.JsonSerializerOptions.PropertyNamingPolicy = null).AddRazorRuntimeCompilation();
             services.AddRazorPages();
         }
 

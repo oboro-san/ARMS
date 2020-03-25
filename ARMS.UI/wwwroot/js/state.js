@@ -12,7 +12,7 @@ function loadDataTable() {
             "datatype": "json"
         },
         "columns": [
-            { "data": "nameOfState", "width": "70%" },
+            { "data": "NameOfState", "width": "70%" },
             {
                 "data": "id",
                 "render": function (data) {

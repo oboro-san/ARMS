@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Reflection.PortableExecutable;
 using System.Text;
+using System.Threading.Tasks;
 using ARMS.Models;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
@@ -12,5 +14,7 @@ namespace ARMS.DataAccess.Data.Repository.IRepository
         IEnumerable<SelectListItem> GetStateListForDropDown();
 
         void Update(State state);
+
+        Task UpdateAsync(State state);
     }
 }

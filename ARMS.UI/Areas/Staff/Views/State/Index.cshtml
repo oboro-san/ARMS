@@ -1,29 +1,74 @@
-﻿@{
+﻿@using ARMS.Models
+@using DevExtreme.AspNet.Mvc
+@{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<br />
-<div class="border backgroundWhite">
-    <div class="row">
-        <div class="col-6">
-            <h2 class="text-primary">State List</h2>
+@(Html.DevExtreme().DataGrid<State>()
+      .ShowBorders(true)
+      .DataSource(d => d.Mvc().Controller("State")
+          .LoadAction("Get")
+          .InsertAction("Insert")
+          .UpdateAction("Update")
+          .Key("Id"))
+      .Columns(columns =>
+      {
+          columns.AddFor(m => m.NameOfState);
+          columns.Add()
+              .Type(GridCommandColumnType.Buttons)
+              .Buttons(b =>
+              {
+                  b.Add().Name(GridColumnButtonName.Edit);
+                  b.Add().Name(GridColumnButtonName.Delete);
+              });
+      })
+      .Paging(p => p.PageSize(10))
+      .FilterRow(f => f.Visible(true))
+      .SearchPanel(searchPanel => searchPanel
+          .Visible(true)
+          .Width(240)
+          .Placeholder("Search...")
+      )
+      .HeaderFilter(f => f.Visible(true))
+      .GroupPanel(p => p.Visible(true))
+      .Grouping(g => g.AutoExpandAll(false))
+      .RemoteOperations(true)
+      .Editing(e =>
+      {
+          e.Mode(GridEditMode.Cell);
+          e.AllowAdding(true);
+          e.AllowUpdating(true);
+          e.UseIcons(true);
+      })
+)
+
+@*<br />
+    <div class="border backgroundWhite">
+        <div class="row">
+            <div class="col-6">
+                <h2 class="text-primary">State List</h2>
+            </div>
+            <div class="col-6 text-right">
+                <a asp-action="Upsert" class="btn btn-primary"><i class="fas fa-plus"></i>&nbsp; Create New State</a>
+            </div>
         </div>
-        <div class="col-6 text-right">
-            <a asp-action="Upsert" class="btn btn-primary"><i class="fas fa-plus"></i>&nbsp; Create New State</a>
-        </div>
+        <br />
+        <table id="tblData" class="table table-striped table-bordered" style="width: 100%;">
+            <thead>
+                <tr>
+                    <th>Name Of State</th>
+                    <th></th>
+                </tr>
+            </thead>
+        </table>
     </div>
     <br />
-    <table id="tblData" class="table table-striped table-bordered" style="width: 100%;">
-        <thead>
-            <tr>
-                <th>Name Of State</th>
-                <th></th>
-            </tr>
-        </thead>
-    </table>
-</div>
-
-@section Scripts {
-
-    <script type="text/javascript" src="~/js/state.js"></script>
-}
+    @(Html.DevExtreme().DataGrid<State>()
+          .ShowBorders(true)
+          .DataSource(d => d.Mvc().Controller("Data").LoadAction("Get").Key("Id"))
+          .Columns(columns =>
+          {
+              columns.AddFor(m => m.Id);
+              columns.AddFor(m => m.NameOfState);
+          })
+    )*@

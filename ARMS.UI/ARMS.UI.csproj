@@ -4,6 +4,9 @@
     <UserSecretsId>aspnet-ARMS.UI-1811FE73-E6B5-4D52-8FDA-7094E148A180</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Remove="Areas\Staff\Controllers\DataController.cs" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.2" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.2" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.2" />

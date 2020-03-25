@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARMS.UI", "ARMS.UI\ARMS.UI.csproj", "{92F557E2-61C0-41F1-B385-309DADF032CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ARMS.UI", "ARMS.UI\ARMS.UI.csproj", "{92F557E2-61C0-41F1-B385-309DADF032CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARMS.DataAccess", "ARMS.DataAccess\ARMS.DataAccess.csproj", "{F3B1EEF2-0238-42A0-86AB-0605D583F1FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ARMS.DataAccess", "ARMS.DataAccess\ARMS.DataAccess.csproj", "{F3B1EEF2-0238-42A0-86AB-0605D583F1FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARMS.Models", "ARMS.Models\ARMS.Models.csproj", "{A3ED3D5A-E832-4DF5-A477-4BBE5F530115}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ARMS.Models", "ARMS.Models\ARMS.Models.csproj", "{A3ED3D5A-E832-4DF5-A477-4BBE5F530115}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARMS.Utility", "ARMS.Utility\ARMS.Utility.csproj", "{48C2C221-AF1E-4709-8A03-3D33387D685E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ARMS.Utility", "ARMS.Utility\ARMS.Utility.csproj", "{48C2C221-AF1E-4709-8A03-3D33387D685E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
