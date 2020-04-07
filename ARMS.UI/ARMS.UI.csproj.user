@@ -19,6 +19,6 @@
     <DevExtremeUseLayout>True</DevExtremeUseLayout>
     <DevExtremeLayoutPage>~/Views/Shared/_DevExtremeLayout.cshtml</DevExtremeLayoutPage>
     <DevExtremeSelectedDataContextName>ApplicationDbContext %28ARMS.DataAccess.Data%29</DevExtremeSelectedDataContextName>
-    <ShowAllFiles>false</ShowAllFiles>
+    <ShowAllFiles>true</ShowAllFiles>
   </PropertyGroup>
 </Project>

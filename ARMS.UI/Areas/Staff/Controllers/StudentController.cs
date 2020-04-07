@@ -22,5 +22,21 @@ namespace ARMS.UI.Areas.Staff.Controllers
         {
             return View();
         }
+
+        public IActionResult Search()
+        {
+            return View();
+        }
+
+        #region Api Calls
+
+        [HttpGet]
+        public IActionResult GetAll()
+        {
+            var allObj = _unitOfWork.Student.GetAllE();
+            return Json(new { data = allObj });
+        }
+
+        #endregion Api Calls
     }
 }

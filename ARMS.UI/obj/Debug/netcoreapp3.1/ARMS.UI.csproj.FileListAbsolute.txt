@@ -471,3 +471,5 @@ D:\VisualStudioProjects\ARMS\ARMS.UI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\
 D:\VisualStudioProjects\ARMS\ARMS.UI\obj\Debug\netcoreapp3.1\ARMS.UI.csproj.CoreCompileInputs.cache
 D:\VisualStudioProjects\ARMS\ARMS.UI\obj\Debug\netcoreapp3.1\ARMS.UI.genruntimeconfig.cache
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\Dapper.dll
+D:\VisualStudioProjects\ARMS\ARMS.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Staff\Views\Student\Index.cshtml.g.cs
+D:\VisualStudioProjects\ARMS\ARMS.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Staff\Views\Student\Search.cshtml.g.cs
