@@ -12,6 +12,5 @@ namespace ARMS.DataAccess.Data
         }
 
         public DbSet<Student> Students { get; set; }
-        public DbSet<State> States { get; set; }
     }
 }

@@ -20,21 +20,14 @@ using ARMS.UI;
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "D:\VisualStudioProjects\ARMS\ARMS.UI\Views\_ViewImports.cshtml"
-using ARMS.UI.Models;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 4 "D:\VisualStudioProjects\ARMS\ARMS.UI\Views\_ViewImports.cshtml"
+#line 3 "D:\VisualStudioProjects\ARMS\ARMS.UI\Views\_ViewImports.cshtml"
 using DevExtreme.AspNet.Mvc;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c631c45ae744204fdc29e5d3d862b29f41b8f556", @"/Views/Shared/_EditAndBackToListButton.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7cd09328dcd8c5ae15b4fb535d276b27c0cd19da", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"fe9124dea7aa393d2402cd42be213a9ddf5b3da1", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__EditAndBackToListButton : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<int>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("type", new global::Microsoft.AspNetCore.Html.HtmlString("submit"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -67,7 +60,7 @@ using DevExtreme.AspNet.Mvc;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("\r\n<div class=\"row\">\r\n    <div class=\"col\">\r\n        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("button", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c631c45ae744204fdc29e5d3d862b29f41b8f5564857", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("button", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c631c45ae744204fdc29e5d3d862b29f41b8f5564691", async() => {
                 WriteLiteral("Update");
             }
             );
@@ -98,7 +91,7 @@ using DevExtreme.AspNet.Mvc;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n    </div>\r\n    <div class=\"col\">\r\n        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c631c45ae744204fdc29e5d3d862b29f41b8f5567081", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c631c45ae744204fdc29e5d3d862b29f41b8f5566915", async() => {
                 WriteLiteral("Back to List");
             }
             );

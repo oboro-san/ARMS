@@ -20,21 +20,14 @@ using ARMS.UI;
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "D:\VisualStudioProjects\ARMS\ARMS.UI\Views\_ViewImports.cshtml"
-using ARMS.UI.Models;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 4 "D:\VisualStudioProjects\ARMS\ARMS.UI\Views\_ViewImports.cshtml"
+#line 3 "D:\VisualStudioProjects\ARMS\ARMS.UI\Views\_ViewImports.cshtml"
 using DevExtreme.AspNet.Mvc;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0f7f35f02e33974f4a390112d69b420cd5680939", @"/Views/Shared/_CreateAndBackToListButton.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7cd09328dcd8c5ae15b4fb535d276b27c0cd19da", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"fe9124dea7aa393d2402cd42be213a9ddf5b3da1", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__CreateAndBackToListButton : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Index", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -64,7 +57,7 @@ using DevExtreme.AspNet.Mvc;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("<div class=\"row\">\r\n    <div class=\"col\">\r\n        <button type=\"submit\" class=\"btn btn-primary form-control\">Create</button>\r\n    </div>\r\n    <div class=\"col\">\r\n        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0f7f35f02e33974f4a390112d69b420cd56809394145", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0f7f35f02e33974f4a390112d69b420cd56809393979", async() => {
                 WriteLiteral("Back to List");
             }
             );

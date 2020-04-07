@@ -3,8 +3,18 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UserSecretsId>aspnet-ARMS.UI-1811FE73-E6B5-4D52-8FDA-7094E148A180</UserSecretsId>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>1701;1702;AD0001</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Areas\Staff\Views\State\**" />
+    <Content Remove="Areas\Staff\Views\State\**" />
+    <EmbeddedResource Remove="Areas\Staff\Views\State\**" />
+    <None Remove="Areas\Staff\Views\State\**" />
+  </ItemGroup>
   <ItemGroup>
     <Compile Remove="Areas\Staff\Controllers\DataController.cs" />
+    <Compile Remove="Areas\Staff\Controllers\StateController.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.2" />

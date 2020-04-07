@@ -13,3 +13,5 @@ D:\VisualStudioProjects\ARMS\ARMS.DataAccess\obj\Debug\netcoreapp3.1\ARMS.DataAc
 D:\VisualStudioProjects\ARMS\ARMS.DataAccess\obj\Debug\netcoreapp3.1\ARMS.DataAccess.csproj.CopyComplete
 D:\VisualStudioProjects\ARMS\ARMS.DataAccess\obj\Debug\netcoreapp3.1\ARMS.DataAccess.dll
 D:\VisualStudioProjects\ARMS\ARMS.DataAccess\obj\Debug\netcoreapp3.1\ARMS.DataAccess.pdb
+D:\VisualStudioProjects\ARMS\ARMS.DataAccess\obj\Debug\netcoreapp3.1\ARMS.DataAccess.genruntimeconfig.cache
+D:\VisualStudioProjects\ARMS\ARMS.DataAccess\obj\Debug\netcoreapp3.1\ARMS.DataAccess.csproj.CoreCompileInputs.cache

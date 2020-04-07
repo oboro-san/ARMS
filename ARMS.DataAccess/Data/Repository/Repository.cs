@@ -11,13 +11,13 @@ namespace ARMS.DataAccess.Data.Repository
 {
     public class Repository<T> : IRepository<T> where T : class
     {
-        protected readonly DbContext Context;
+        private readonly ApplicationDbContext _db;
         internal DbSet<T> dbSet;
 
-        public Repository(DbContext context)
+        public Repository(ApplicationDbContext db)
         {
-            Context = context;
-            this.dbSet = context.Set<T>();
+            _db = db;
+            this.dbSet = db.Set<T>();
         }
 
         public T Get(int id)
@@ -109,6 +109,11 @@ namespace ARMS.DataAccess.Data.Repository
         public void Remove(T entity)
         {
             dbSet.Remove(entity);
+        }
+
+        public void RemoveRange(IEnumerable<T> entity)
+        {
+            dbSet.RemoveRange(entity);
         }
 
         public async Task<T> FirstOrDefaultAsync(Expression<Func<T, bool>> filter = null, string includeProperties = null)

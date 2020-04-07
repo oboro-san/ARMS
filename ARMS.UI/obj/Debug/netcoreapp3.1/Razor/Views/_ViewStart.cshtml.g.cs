@@ -20,21 +20,14 @@ using ARMS.UI;
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "D:\VisualStudioProjects\ARMS\ARMS.UI\Views\_ViewImports.cshtml"
-using ARMS.UI.Models;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 4 "D:\VisualStudioProjects\ARMS\ARMS.UI\Views\_ViewImports.cshtml"
+#line 3 "D:\VisualStudioProjects\ARMS\ARMS.UI\Views\_ViewImports.cshtml"
 using DevExtreme.AspNet.Mvc;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"77a2804b95fd303a20a56ec194ea6ca59278fafa", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7cd09328dcd8c5ae15b4fb535d276b27c0cd19da", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"fe9124dea7aa393d2402cd42be213a9ddf5b3da1", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

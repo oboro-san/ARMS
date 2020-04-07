@@ -1,5 +1,5 @@
 ﻿using System.Diagnostics;
-using ARMS.UI.Models;
+using ARMS.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 

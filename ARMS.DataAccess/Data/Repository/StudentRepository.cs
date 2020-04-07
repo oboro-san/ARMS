@@ -27,11 +27,10 @@ namespace ARMS.DataAccess.Data.Repository
                 objFromDb.FirstName = student.FirstName;
                 objFromDb.MiddleName = student.MiddleName;
                 objFromDb.LastName = student.LastName;
-                objFromDb.Dob = student.Dob;
-                objFromDb.Gender = student.Gender;
-                objFromDb.NationalityId = student.NationalityId;
-                objFromDb.StateId = student.StateId;
-                objFromDb.LgaId = student.LgaId;
+                objFromDb.Lga = student.Lga;
+                objFromDb.CertCode = student.CertCode;
+                objFromDb.CurrentLevel = student.CurrentLevel;
+                objFromDb.CurrentSession = student.CurrentSession;
 
                 _db.SaveChanges();
             }

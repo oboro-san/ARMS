@@ -20,13 +20,6 @@ using ARMS.UI;
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "D:\VisualStudioProjects\ARMS\ARMS.UI\Areas\Student\Views\_ViewImports.cshtml"
-using ARMS.UI.Models;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
 #line 1 "D:\VisualStudioProjects\ARMS\ARMS.UI\Areas\Student\Views\Home\Index.cshtml"
 using DevExtreme.AspNet.Mvc;
 
@@ -34,7 +27,7 @@ using DevExtreme.AspNet.Mvc;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1bd73f4013e89ccf7aa051c569b53cd0155a3804", @"/Areas/Student/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a4c3e36393d0d3a40e45d8e33fbcce0b0eb53591", @"/Areas/Student/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8e747e19b4a44f402fa22755e4c7adf933daff61", @"/Areas/Student/Views/_ViewImports.cshtml")]
     public class Areas_Student_Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

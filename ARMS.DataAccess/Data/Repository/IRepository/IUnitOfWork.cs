@@ -7,9 +7,9 @@ namespace ARMS.DataAccess.Data.Repository.IRepository
 {
     public interface IUnitOfWork : IDisposable
     {
-        IStudentRepository Student { get; }
+        IStoredProcCall StoredProcCall { get; }
 
-        IStateRepository State { get; }
+        IStudentRepository Student { get; }
 
         void Save();
 

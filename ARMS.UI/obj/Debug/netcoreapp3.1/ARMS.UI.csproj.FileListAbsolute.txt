@@ -117,7 +117,6 @@ D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\Microsoft.Net.
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.Core.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Primitives.dll
-D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Registry.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\mscorlib.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\netstandard.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.AppContext.dll
@@ -142,7 +141,6 @@ D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.Data.dl
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Contracts.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Debug.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.DiagnosticSource.dll
-D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.EventLog.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.FileVersionInfo.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Process.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.StackTrace.dll
@@ -168,7 +166,6 @@ D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.IO.File
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Watcher.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.IO.IsolatedStorage.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.IO.MemoryMappedFiles.dll
-D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.IO.Pipelines.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.IO.Pipes.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.IO.UnmanagedMemoryStream.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.Linq.dll
@@ -224,19 +221,14 @@ D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.Runtime
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Json.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Primitives.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Xml.dll
-D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.Security.AccessControl.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.Security.Claims.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Algorithms.dll
-D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Cng.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Csp.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Encoding.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Primitives.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.X509Certificates.dll
-D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Xml.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.Security.dll
-D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.Security.Permissions.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.dll
-D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.Windows.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.Security.SecureString.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.ServiceModel.Web.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.ServiceProcess.dll
@@ -261,7 +253,6 @@ D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.ValueTu
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.Web.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.Web.HttpUtility.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.Windows.dll
-D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.Windows.Extensions.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.Xml.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.Xml.Linq.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\refs\System.Xml.ReaderWriter.dll
@@ -334,7 +325,6 @@ D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\System.Composition.
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
-D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\System.Text.Json.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
@@ -396,7 +386,6 @@ D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\runtimes\win-x64\na
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
-D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\ARMS.DataAccess.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\ARMS.Models.dll
@@ -473,11 +462,12 @@ D:\VisualStudioProjects\ARMS\ARMS.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identit
 D:\VisualStudioProjects\ARMS\ARMS.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
 D:\VisualStudioProjects\ARMS\ARMS.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 D:\VisualStudioProjects\ARMS\ARMS.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
-D:\VisualStudioProjects\ARMS\ARMS.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Staff\Views\State\Index.cshtml.g.cs
-D:\VisualStudioProjects\ARMS\ARMS.UI\obj\Debug\netcoreapp3.1\Razor\Areas\Staff\Views\State\Upsert.cshtml.g.cs
 D:\VisualStudioProjects\ARMS\ARMS.UI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CreateAndBackToListButton.cshtml.g.cs
 D:\VisualStudioProjects\ARMS\ARMS.UI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_EditAndBackToListButton.cshtml.g.cs
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\NuGet.config
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\DevExtreme.AspNet.Core.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\DevExtreme.AspNet.Data.dll
 D:\VisualStudioProjects\ARMS\ARMS.UI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_DevExtremeLayout.cshtml.g.cs
+D:\VisualStudioProjects\ARMS\ARMS.UI\obj\Debug\netcoreapp3.1\ARMS.UI.csproj.CoreCompileInputs.cache
+D:\VisualStudioProjects\ARMS\ARMS.UI\obj\Debug\netcoreapp3.1\ARMS.UI.genruntimeconfig.cache
+D:\VisualStudioProjects\ARMS\ARMS.UI\bin\Debug\netcoreapp3.1\Dapper.dll
