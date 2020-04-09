@@ -17,7 +17,7 @@ namespace ARMS.Models
 
         [MaxLength(50)]
         [Display(Name = "Mat. Number")]
-        [Column("mat_number")]
+        [Column("matric_number")]
         public string MatNumber { get; set; }
 
         [MaxLength(50)]
@@ -25,13 +25,11 @@ namespace ARMS.Models
         [Column("reg_number")]
         public string RegNumber { get; set; }
 
-        [Required]
         [MaxLength(150)]
         [Display(Name = "Lastname")]
         [Column("lastname")]
         public string LastName { get; set; }
 
-        [Required]
         [MaxLength(150)]
         [Display(Name = "Firstname")]
         [Column("firstname")]
@@ -42,35 +40,43 @@ namespace ARMS.Models
         [Column("middlename")]
         public string MiddleName { get; set; }
 
-        [Required]
         [MaxLength(50)]
-        [Column("gender")]
-        public string Gender { get; set; }
+        [Column("sex")]
+        public string Sex { get; set; }
 
-        [Required]
-        [Display(Name = "Date of Birth")]
-        [Column("dob")]
-        public DateTime Dob { get; set; }
-
-        [Required]
         [Display(Name = "Nationality")]
-        [Column("nationality_id")]
-        public int NationalityId { get; set; }
-
-        [Display(Name = "State")]
-        [Column("state_id")]
-        public int StateId { get; set; }
+        [MaxLength(50)]
+        [Column("nationality")]
+        public string Nationality { get; set; }
 
         [Display(Name = "Local Govt. Area")]
-        [Column("lga_id")]
-        public int LgaId { get; set; }
+        [MaxLength(50)]
+        [Column("lga")]
+        public string Lga { get; set; }
 
-        public List<Address> Addresses { get; set; } = new List<Address>();
+        [Display(Name = "Marital Status")]
+        [MaxLength(50)]
+        [Column("marital_status")]
+        public string MaritalStatus { get; set; }
 
-        public List<Email> EmailAddresses { get; set; } = new List<Email>();
+        [Display(Name = "Certificate Code")]
+        [MaxLength(50)]
+        [Column("certcode")]
+        public string CertCode { get; set; }
 
-        public List<PhoneNumber> PhoneNumbers { get; set; } = new List<PhoneNumber>();
+        [Display(Name = "Level")]
+        [MaxLength(50)]
+        [Column("current_level")]
+        public string CurrentLevel { get; set; }
 
-        public List<NextOfKin> NextOfKins { get; set; } = new List<NextOfKin>();
+        [Display(Name = "Session")]
+        [MaxLength(50)]
+        [Column("current_session")]
+        public string CurrentSession { get; set; }
+
+        [Display(Name = "Full Name")]
+        [MaxLength(250)]
+        [Column("fullname")]
+        public string FullName { get; set; }
     }
 }

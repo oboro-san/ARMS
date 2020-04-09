@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Direct Input";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h3 class="header-title">Direct Input</h3>
+        <hr />
+        <div class="p-3 border rounded shadow mt-3">
+            <table id="tblData" class="table table-striped table-bordered" style="width: 100%">
+                <thead class="thead-light">
+                    <tr class="table-info">
+                        <th>StudentId</th>
+                        <th>Mat. Number</th>
+                        <th>Reg. Number</th>
+                        <th>Name</th>
+                        <th></th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+
+    <script type="text/javascript" src="~/js/searchstudents.js"></script>
+}

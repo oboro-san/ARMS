@@ -1,7 +1,7 @@
 D:\VisualStudioProjects\ARMS\ARMS.Utility\bin\Debug\netcoreapp3.1\ARMS.Utility.deps.json
 D:\VisualStudioProjects\ARMS\ARMS.Utility\bin\Debug\netcoreapp3.1\ARMS.Utility.dll
 D:\VisualStudioProjects\ARMS\ARMS.Utility\bin\Debug\netcoreapp3.1\ARMS.Utility.pdb
-D:\VisualStudioProjects\ARMS\ARMS.Utility\obj\Debug\netcoreapp3.1\ARMS.Utility.csprojAssemblyReference.cache
+D:\VisualStudioProjects\ARMS\ARMS.Utility\obj\Debug\netcoreapp3.1\ARMS.Utility.csproj.CoreCompileInputs.cache
 D:\VisualStudioProjects\ARMS\ARMS.Utility\obj\Debug\netcoreapp3.1\ARMS.Utility.AssemblyInfoInputs.cache
 D:\VisualStudioProjects\ARMS\ARMS.Utility\obj\Debug\netcoreapp3.1\ARMS.Utility.AssemblyInfo.cs
 D:\VisualStudioProjects\ARMS\ARMS.Utility\obj\Debug\netcoreapp3.1\ARMS.Utility.dll

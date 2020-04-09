@@ -13,11 +13,9 @@ namespace ARMS.DataAccess.Data.Repository
         {
             _db = db;
             Student = new StudentRepository(_db);
-            State = new StateRepository(_db);
         }
 
         public IStudentRepository Student { get; private set; }
-        public IStateRepository State { get; private set; }
 
         public void Dispose()
         {

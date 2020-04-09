@@ -19,177 +19,6 @@ namespace ARMS.DataAccess.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("ARMS.Models.Address", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("City")
-                        .HasColumnName("city")
-                        .HasColumnType("nvarchar(50)")
-                        .HasMaxLength(50);
-
-                    b.Property<string>("Country")
-                        .HasColumnName("country")
-                        .HasColumnType("nvarchar(50)")
-                        .HasMaxLength(50);
-
-                    b.Property<int>("NextOfKinId")
-                        .HasColumnName("next_of_kin_id")
-                        .HasColumnType("int");
-
-                    b.Property<string>("State")
-                        .HasColumnName("state")
-                        .HasColumnType("nvarchar(50)")
-                        .HasMaxLength(50);
-
-                    b.Property<string>("Street")
-                        .HasColumnName("street")
-                        .HasColumnType("nvarchar(350)")
-                        .HasMaxLength(350);
-
-                    b.Property<string>("StudentId")
-                        .HasColumnName("student_id")
-                        .HasColumnType("nvarchar(50)")
-                        .HasMaxLength(50);
-
-                    b.Property<string>("ZipCode")
-                        .HasColumnName("zipcode")
-                        .HasColumnType("nvarchar(50)")
-                        .HasMaxLength(50);
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("NextOfKinId");
-
-                    b.HasIndex("StudentId");
-
-                    b.ToTable("Address");
-                });
-
-            modelBuilder.Entity("ARMS.Models.Email", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("EmailAddress")
-                        .HasColumnName("email_address")
-                        .HasColumnType("nvarchar(400)")
-                        .HasMaxLength(400);
-
-                    b.Property<int>("NextOfKinId")
-                        .HasColumnName("next_of_kin_id")
-                        .HasColumnType("int");
-
-                    b.Property<string>("StudentId")
-                        .HasColumnName("student_id")
-                        .HasColumnType("nvarchar(50)")
-                        .HasMaxLength(50);
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("NextOfKinId");
-
-                    b.HasIndex("StudentId");
-
-                    b.ToTable("Email");
-                });
-
-            modelBuilder.Entity("ARMS.Models.NextOfKin", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("FirstName")
-                        .IsRequired()
-                        .HasColumnName("firstname")
-                        .HasColumnType("nvarchar(50)")
-                        .HasMaxLength(50);
-
-                    b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasColumnName("lastname")
-                        .HasColumnType("nvarchar(50)")
-                        .HasMaxLength(50);
-
-                    b.Property<string>("Relationship")
-                        .IsRequired()
-                        .HasColumnName("relationship")
-                        .HasColumnType("nvarchar(50)")
-                        .HasMaxLength(50);
-
-                    b.Property<string>("StudentId")
-                        .HasColumnName("student_id")
-                        .HasColumnType("nvarchar(50)")
-                        .HasMaxLength(50);
-
-                    b.Property<string>("Title")
-                        .HasColumnName("title")
-                        .HasColumnType("nvarchar(50)")
-                        .HasMaxLength(50);
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("StudentId");
-
-                    b.ToTable("NextOfKin");
-                });
-
-            modelBuilder.Entity("ARMS.Models.PhoneNumber", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int>("NextOfKinId")
-                        .HasColumnName("next_of_kin_id")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Number")
-                        .IsRequired()
-                        .HasColumnName("phone_number")
-                        .HasColumnType("nvarchar(50)")
-                        .HasMaxLength(50);
-
-                    b.Property<string>("StudentId")
-                        .HasColumnName("student_id")
-                        .HasColumnType("nvarchar(50)")
-                        .HasMaxLength(50);
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("NextOfKinId");
-
-                    b.HasIndex("StudentId");
-
-                    b.ToTable("PhoneNumber");
-                });
-
-            modelBuilder.Entity("ARMS.Models.State", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("NameOfState")
-                        .IsRequired()
-                        .HasColumnName("state")
-                        .HasColumnType("nvarchar(50)")
-                        .HasMaxLength(50);
-
-                    b.HasKey("Id");
-
-                    b.ToTable("States");
-                });
-
             modelBuilder.Entity("ARMS.Models.Student", b =>
                 {
                     b.Property<string>("StudentId")
@@ -197,34 +26,48 @@ namespace ARMS.DataAccess.Migrations
                         .HasColumnType("nvarchar(50)")
                         .HasMaxLength(50);
 
-                    b.Property<DateTime>("Dob")
-                        .HasColumnName("dob")
-                        .HasColumnType("datetime2");
+                    b.Property<string>("CertCode")
+                        .HasColumnName("certcode")
+                        .HasColumnType("nvarchar(50)")
+                        .HasMaxLength(50);
+
+                    b.Property<string>("CurrentLevel")
+                        .HasColumnName("current_level")
+                        .HasColumnType("nvarchar(50)")
+                        .HasMaxLength(50);
+
+                    b.Property<string>("CurrentSession")
+                        .HasColumnName("current_session")
+                        .HasColumnType("nvarchar(50)")
+                        .HasMaxLength(50);
 
                     b.Property<string>("FirstName")
-                        .IsRequired()
                         .HasColumnName("firstname")
                         .HasColumnType("nvarchar(150)")
                         .HasMaxLength(150);
 
-                    b.Property<string>("Gender")
-                        .IsRequired()
-                        .HasColumnName("gender")
-                        .HasColumnType("nvarchar(50)")
-                        .HasMaxLength(50);
+                    b.Property<string>("FullName")
+                        .HasColumnName("fullname")
+                        .HasColumnType("nvarchar(250)")
+                        .HasMaxLength(250);
 
                     b.Property<string>("LastName")
-                        .IsRequired()
                         .HasColumnName("lastname")
                         .HasColumnType("nvarchar(150)")
                         .HasMaxLength(150);
 
-                    b.Property<int>("LgaId")
-                        .HasColumnName("lga_id")
-                        .HasColumnType("int");
+                    b.Property<string>("Lga")
+                        .HasColumnName("lga")
+                        .HasColumnType("nvarchar(50)")
+                        .HasMaxLength(50);
+
+                    b.Property<string>("MaritalStatus")
+                        .HasColumnName("marital_status")
+                        .HasColumnType("nvarchar(50)")
+                        .HasMaxLength(50);
 
                     b.Property<string>("MatNumber")
-                        .HasColumnName("mat_number")
+                        .HasColumnName("matric_number")
                         .HasColumnType("nvarchar(50)")
                         .HasMaxLength(50);
 
@@ -233,18 +76,20 @@ namespace ARMS.DataAccess.Migrations
                         .HasColumnType("nvarchar(150)")
                         .HasMaxLength(150);
 
-                    b.Property<int>("NationalityId")
-                        .HasColumnName("nationality_id")
-                        .HasColumnType("int");
+                    b.Property<string>("Nationality")
+                        .HasColumnName("nationality")
+                        .HasColumnType("nvarchar(50)")
+                        .HasMaxLength(50);
 
                     b.Property<string>("RegNumber")
                         .HasColumnName("reg_number")
                         .HasColumnType("nvarchar(50)")
                         .HasMaxLength(50);
 
-                    b.Property<int>("StateId")
-                        .HasColumnName("state_id")
-                        .HasColumnType("int");
+                    b.Property<string>("Sex")
+                        .HasColumnName("sex")
+                        .HasColumnType("nvarchar(50)")
+                        .HasMaxLength(50);
 
                     b.HasKey("StudentId");
 
@@ -445,52 +290,6 @@ namespace ARMS.DataAccess.Migrations
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens");
-                });
-
-            modelBuilder.Entity("ARMS.Models.Address", b =>
-                {
-                    b.HasOne("ARMS.Models.NextOfKin", null)
-                        .WithMany("Addresses")
-                        .HasForeignKey("NextOfKinId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("ARMS.Models.Student", null)
-                        .WithMany("Addresses")
-                        .HasForeignKey("StudentId");
-                });
-
-            modelBuilder.Entity("ARMS.Models.Email", b =>
-                {
-                    b.HasOne("ARMS.Models.NextOfKin", null)
-                        .WithMany("EmailAddresses")
-                        .HasForeignKey("NextOfKinId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("ARMS.Models.Student", null)
-                        .WithMany("EmailAddresses")
-                        .HasForeignKey("StudentId");
-                });
-
-            modelBuilder.Entity("ARMS.Models.NextOfKin", b =>
-                {
-                    b.HasOne("ARMS.Models.Student", null)
-                        .WithMany("NextOfKins")
-                        .HasForeignKey("StudentId");
-                });
-
-            modelBuilder.Entity("ARMS.Models.PhoneNumber", b =>
-                {
-                    b.HasOne("ARMS.Models.NextOfKin", null)
-                        .WithMany("PhoneNumbers")
-                        .HasForeignKey("NextOfKinId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("ARMS.Models.Student", null)
-                        .WithMany("PhoneNumbers")
-                        .HasForeignKey("StudentId");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

@@ -19,15 +19,8 @@ using ARMS.UI;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 2 "D:\VisualStudioProjects\ARMS\ARMS.UI\Areas\Staff\Views\_ViewImports.cshtml"
-using ARMS.UI.Models;
-
-#line default
-#line hidden
-#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f6de898be7d73183dfe3136d655297db0f6bef3c", @"/Areas/Staff/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a4c3e36393d0d3a40e45d8e33fbcce0b0eb53591", @"/Areas/Staff/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8e747e19b4a44f402fa22755e4c7adf933daff61", @"/Areas/Staff/Views/_ViewImports.cshtml")]
     public class Areas_Staff_Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

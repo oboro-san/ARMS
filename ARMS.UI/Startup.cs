@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using ARMS.DataAccess.Data;
 using ARMS.DataAccess.Data.Repository;
 using ARMS.DataAccess.Data.Repository.IRepository;
+using ARMS.UI.Mapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI;
@@ -16,6 +17,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using ARMS.Utility;
+using AutoMapper;
 
 namespace ARMS.UI
 {
@@ -38,6 +40,8 @@ namespace ARMS.UI
             services.AddSingleton<IEmailSender, EmailSender>();
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+            services.AddAutoMapper(typeof(ArmsMappings));
 
             services.AddControllersWithViews().AddNewtonsoftJson().AddRazorRuntimeCompilation();
             services.AddRazorPages();
@@ -69,7 +73,7 @@ namespace ARMS.UI
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{area=Student}/{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{area=Staff}/{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
         }
